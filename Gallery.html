@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+    <link href="c:\Users\onesai\Documents\ink\cssGallery.css" rel="stylesheet">
+    <style>
+
+ส่วนแถบนำทาง
+
+        * {
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #000000;
+        }
+
+        li {
+            float: right;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .logoimg {
+            width: center;
+            float: left;
+            margin: 0;
+            padding: 0;
+
+
+        }
+
+        li a:hover:not(.active) {
+            background-color: #ff0000;
+        }
+
+
+
+ส่วนสไลด์
+
+        .slide {
+            width: 600px;
+            height: auto;
+            margin: auto;
+            overflow: hidden;
+            background-color: black;
+            border-radius: 30px;
+            border: 3px solid rgb(185, 29, 29);
+        }
+
+        .slide figure img {
+            width: 20%;
+            height: auto;
+            float: left;
+        }
+
+        .slide figure {
+            position: relative;
+            width: 500%;
+            margin: 0px;
+            left: 0px;
+            animation: what 20s infinite linear;
+        }
+
+        @keyframes what {
+
+            0%{left: 0%;}
+            15%{left: -100%;}
+            20%{left: -100%;}
+            35%{left: -200%;}
+            40%{left: -200%;}
+            60%{left: -300%;}
+            65%{left: -300%;}
+            80%{left: -400%;}
+            85%{left: -400%;}
+            100%{left: -400%;}
+            
+        }
+        
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <ul>
+
+        <li style="float: left;"><a class="logoimg" href="https://youtu.be/s2waTJgC8FA?si=QBhJMGMHIGkgPrce"
+                target="_blank" title="ฟังเพลงกันงับ">
+                <img src="c:\Users\onesai\Documents\ink\รูป\ไม่มีชื่อ 194_20211004210446-2.png" alt="logo" width="75" />
+            </a></li>
+        <li style="float: left;"><a href="c:\Users\onesai\Documents\ink\Test2.html">InkkuDaiyo</a></li>
+        <li><a href="c:\Users\onesai\Documents\ink\Gallery.html">Gallery</a></li>
+        <li><a href="c:\Users\onesai\Documents\ink\Certificate.html">Certificate</a></li>
+        <li><a href="c:\Users\onesai\Documents\ink\Home.html">Home</a></li>
+
+
+    </ul>
+
+    <div class="slide">
+        <figure>
+
+        <img src="c:\Users\onesai\Documents\ink\รูป\ไม่มีชื่อ 47_20231113185817.png" alt="logo" width="1000px">
+        <img src="c:\Users\onesai\Documents\ink\รูป\ไม่มีชื่อ 47_20231113185806.png" alt="logo" width="1340px">
+        <img src="c:\Users\onesai\Documents\ink\รูป\ไม่มีชื่อ 47_20231113185920.png" alt="logo" width="1340px">
+        <img src="c:\Users\onesai\Documents\ink\รูป\ไม่มีชื่อ 47_20231113190013.png" alt="logo" width="1340px">
+        <img src="c:\Users\onesai\Documents\ink\รูป\ไม่มีชื่อ 47_20231113190419.png" alt="logo" width="1340px">
+
+        </figure>
+
+    </div>
+
+
+</body>
+
+</html>
